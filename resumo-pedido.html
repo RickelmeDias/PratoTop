@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prato TOP - Seu Pedido</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+            <a class="navbar-brand" href="#"><img src="/assets/food-logo.svg" width="40" alt="Imagem de um alimento parecendo um frango"> Prato TOP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Cardapio</a>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container">
+        <h1 class="text-left my-5">Detalhes Finais do seu Pedido</h1>
+        <h3 class="text-left my-5">Precisa de alguma ajuda com pedido?</h3>
+        <section class="row justify-content-center">
+            <div class="col">
+                <img src="assets/colaboradores/italo.JPG" class="rounded-circle mb-3" style="object-fit: cover;" width="150" height="150"
+                alt="Avatar" />          
+                <h5 class="mb-2"><strong>Italo Pascoli</strong></h5>
+                <h6 class="mb-2 text-left">190294</h6>
+                <p class="text-muted">Diretor Executivo <span class="badge bg-secondary text-light">CEO</span></p>
+            </div>
+            <div class="col">                
+                <img src="assets/colaboradores/marcelo.JPG" class="rounded-circle mb-3" style="object-fit: cover;" width="150" height="150"
+                alt="Avatar" />          
+                <h5 class="mb-2"><strong>Marcelo Adriano</strong></h5>
+                <h6 class="mb-2 text-left">171398</h6>
+                <p class="text-muted">Fundador <span class="badge bg-secondary text-light">FOUNDER</span></p>
+            </div>
+            <div class="col">                
+                <img src="assets/colaboradores/rickelme.JPG" class="rounded-circle mb-3" style="object-fit: cover;" width="150" height="150"
+                alt="Avatar" />          
+                <h5 class="mb-2"><strong>Rickelme Dias</strong></h5>
+                <h6 class="mb-2 text-left">224276</h6>
+                <p class="text-muted">Diretor Financerio <span class="badge bg-secondary text-light">CFO</span></p>
+            </div>
+            <div class="col">                
+                <img src="assets/colaboradores/vinicius.JPG" class="d-flex justify-content-center align-items-center rounded-circle mb-3" style="object-fit: cover;" width="150" height="150"
+                alt="Avatar" />          
+                <h5 class="text-left"><strong>Vinicius Fernandes</strong></h5>
+                <h6 class="mb-2 text-left">190604</h6>
+                <p class="text-muted">Diretor de Tecnologia <span class="badge bg-secondary text-light">CTO</span></p>
+            </div>
+        </section>
+        <h3 class="text-left my-5">Pedido</h3>
+        <table class="table m5-y">
+            <thead>
+                <tr>
+                  <th scope="col">Quantidade</th>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Qtd. Adicionais</th>
+                  <th scope="col">Preço Final</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-produtos">         
+            </tbody>
+        </table>
+        <span>
+            <h3 class="my-5">Valor Total:  <span id="valor-total">oi</span></h3>
+        </span>
+    </main>
+    <footer class="footer bg-dark text-light text-center p-4">
+        <div class="container">
+            <h3>Feito pelos Alunos da turma 2023/CP100TIN2</h3>
+            <ul class="list-unstyled">
+                <li>Italo Pascoli - 190294</li>
+                <li>Marcelo Adriano - 171398</li>
+                <li>Rickelme Dias - 224276</li>
+                <li>Vinicius Fernandes - 190604</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/scripts/resumo.js"></script>
+</body>
+</html>

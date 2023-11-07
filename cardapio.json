@@ -1,0 +1,76 @@
+[
+    { 
+        "tipo": "Refrigerante", 
+        "nome": "Guaraná Lata", 
+        "imagem": "/assets/produtos/guarana.jpg",
+        "composicao": [], 
+        "adicional": [],
+        "preco": 3.00
+    },
+    { 
+        "tipo": "Lanche",
+        "nome": "X-Salada",
+        "imagem": "/assets/produtos/xsalada.jpg",
+        "composicao": ["Pão de hamburguer", "Hamburger", "Alface", "Tomate"],
+        "adicional": [
+            {
+                "nome": "Queijo",
+                "preco": 1.00
+            },
+            {
+                "nome": "Batata",
+                "preco": 5.00
+            },
+            {
+                "nome": "Bacon",
+                "preco": 5.00
+            }
+        ],
+        "preco": 25.75
+    },
+    { 
+        "tipo": "Lanche",
+        "nome": "X-Hamburguer",
+        "imagem": "/assets/produtos/xhamburguer.jpg",
+        "composicao": ["Pão de hamburguer", "Dois Hamburger", "Alface", "2 Tomate", "Cebola"],
+        "adicional": [
+            {
+                "nome": "Queijo",
+                "preco": 1.00
+            },
+            {
+                "nome": "Batata",
+                "preco": 5.00
+            },
+            {
+                "nome": "Bacon",
+                "preco": 5.00
+            }
+        ],
+        "preco": 35.55
+    },
+    { 
+        "tipo": "Refeiçao",
+        "nome": "Prato Top Feito - Numero 1",
+        "imagem": "/assets/produtos/pratofeito1.jpg",
+        "composicao": ["Arroz", "Feijoada", "Carne", "Batata"],
+        "adicional": [],
+        "preco": 45.25
+    },
+    { 
+        "tipo": "Refeiçao",
+        "nome": "Prato Top Feito - Numero 2",
+        "imagem": "/assets/produtos/pratofeito2.jpg",
+        "composicao": ["Arroz", "Feijoada", "Carne", "Batata", "Cebola"],
+        "adicional": [],
+        "preco": 55.15
+    },
+    { 
+        "tipo": "Refeiçao",
+        "nome": "Prato Top Feito - Numero 3",
+        "imagem": "/assets/produtos/pratofeito3.jpg",
+        "composicao": ["Arroz", "Feijoada", "Empanado", "Batata"],
+        "adicional": [],
+        "preco": 55.15
+    }
+]
