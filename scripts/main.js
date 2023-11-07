@@ -57,7 +57,7 @@ function adicionarProduto(produto) {
 }
 
 function processarCardapio () {
-    fetch('/cardapio.json')
+    fetch('../cardapio.json')
     .then(response => {
         if (!response.ok) {
             throw new Error("HTTP error " + response.status);
