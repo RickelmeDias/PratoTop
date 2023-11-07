@@ -99,8 +99,8 @@ function adicionarProdutoCarrinho(nome, imagem, preco, quantidade=undefined) {
 }
 
 function adicionarCombo() {
-    adicionarProdutoCarrinho("Guaraná Lata", "/assets/produtos/guarana.jpg", 3.00, 1);
-    adicionarProdutoCarrinho("X-Salada", "/assets/produtos/xsalada.jpg", 25.75, 1);
+    adicionarProdutoCarrinho("Guaraná Lata", "./assets/produtos/guarana.jpg", 3.00, 1);
+    adicionarProdutoCarrinho("X-Salada", "./assets/produtos/xsalada.jpg", 25.75, 1);
 }
 
 function removerProdutoCarrinho(index) {
