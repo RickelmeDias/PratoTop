@@ -57,7 +57,7 @@ function adicionarProduto(produto) {
 }
 
 function processarCardapio () {
-    fetch('../cardapio.json')
+    fetch('https://raw.githubusercontent.com/RickelmeDias/PratoTop/main/cardapio.json')
     .then(response => {
         if (!response.ok) {
             throw new Error("HTTP error " + response.status);
