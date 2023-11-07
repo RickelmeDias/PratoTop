@@ -26,7 +26,7 @@ function adicionarProduto(produto) {
     const produtoCard = `
     <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
         <div class="card h-100 w-100">
-            <img class="card-img-top" src="..${produto.imagem}" alt="${produto.nome}" style="object-fit: contain;" height=200>
+            <img class="card-img-top" src="${produto.imagem}" alt="${produto.nome}" style="object-fit: contain;" height=200>
             <div class="card-body d-flex justify-content-between" style="flex-direction: column;">
                 <div>
                     <h5 class="card-title">${produto.nome}</h5>
@@ -120,7 +120,7 @@ function atualizaCarrinho() {
         for (let produto of carrinhoDeProdutos) {        
             listaProdutosNoCarrinho += `
             <li class="list-group-item d-flex my-2">
-                <img src="..${produto.imagem}" alt="${produto.nome}" style="object-fit: contain;" height=200 width=200>
+                <img src="${produto.imagem}" alt="${produto.nome}" style="object-fit: contain;" height=200 width=200>
                         <div class="card-body d-flex justify-content-between" style="flex-direction: column;">
                             <div>
                                 <h5 class="card-title">${produto.nome}</h5>
